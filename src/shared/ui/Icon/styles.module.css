@@ -1,0 +1,14 @@
+.icon {
+  display: inline-block;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.icon.clickable {
+  cursor: pointer;
+}
+
+.icon.clickable:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
